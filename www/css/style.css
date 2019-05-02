@@ -1,0 +1,99 @@
+/* Empty. Add your own CSS if you like */
+.minitxt{
+	font-family: 'Acme', sans-serif;
+}
+.title1{
+	font-family: 'Gloria Hallelujah', cursive;
+}
+.padding{
+	background-image: url(https://pbs.twimg.com/media/Dv5v65mXQAAjJyz.jpg:large);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.adnLoader{
+  height: 10rem;
+  width: 30rem;
+  position: absolute;
+  top: 250px;
+  bottom: -300px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  aling-items: center;
+}
+.adnLoader .spike{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 3%;
+  background: #fff;
+  margin-left: -1.5%;
+  transform: rotateX(90deg);
+  animation: loader-anim 1s linear infinite;
+}
+@keyframes loader-anim{
+  to{
+    transform: rotateX(270deg);
+  }
+}
+
+.adnLoader .spike:nth-child(1){
+  left: 10%;
+  animation-delay: .1s;
+  background: #ff0000;
+}
+.adnLoader .spike:nth-child(2){
+  left: 20%;
+  animation-delay: .2s;
+  background: #ff4000;
+}
+.adnLoader .spike:nth-child(3){
+  left: 30%;
+  animation-delay: .3s;
+  background: #ff8000;
+}
+.adnLoader .spike:nth-child(4){
+  left: 40%;
+  animation-delay: .4s;
+  background: #ffbf00;
+}
+.adnLoader .spike:nth-child(5){
+  left: 50%;
+  animation-delay: .5s;
+  background: #ffff00;
+}
+.adnLoader .spike:nth-child(6){
+  left: 60%;
+  animation-delay: .6s;
+  background: #bfff00;
+}
+.adnLoader .spike:nth-child(7){
+  left: 70%;
+  animation-delay: .7s;
+  background: #00ff80;
+}
+.adnLoader .spike:nth-child(8){
+  left: 80%;
+  animation-delay: .8s;
+  background: #00ffff;
+}
+.adnLoader .spike:nth-child(9){
+  left: 90%;
+  animation-delay: .9s;
+  background: #0080ff;
+}
+.adnLoader .spike:nth-child(10){
+  left: 100%;
+  animation-delay: .10s;
+  background: #0040ff;
+}
+
+
+
