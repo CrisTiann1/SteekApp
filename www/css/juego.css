@@ -1,0 +1,13 @@
+/*Para agregarle fondo*/
+ion-content{
+	background-image: url("../img/fondo.png");
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.gifititles{
+	color: #fff;
+	text-shadow: #000 0.1em 0.1em 0.2em
+}
